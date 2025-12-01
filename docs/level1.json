@@ -12,9 +12,9 @@
             },
             {
               "type": "log",
-              "height": 2,
+              "height": 1,
               "lengthX": 1,
-              "offset": 3,
+              "offset": 1.4,
               "start": true
             },
             {
@@ -43,41 +43,28 @@
               "start": false
             },
             {
-              "type": "rock",
-              "height": 1.28,
-              "lengthX": 4,
-              "lengthY": 2,
-              "offset": 2.5,
-              "start": true
-            }
-          ]
-        },
-        {
-          "obstacles": [
-            {
-              "type": "mud",
-              "lengthX": 5,
-              "offset": 0,
-              "start": true
-            },
-            {
               "type": "log",
-              "lengthX": 5,
-              "height": 2,
-              "offset": 3,
+              "height": 1,
+              "lengthX": 3,
+              "offset": 2,
               "start": false
             },
             {
               "type": "log",
-              "height": 4,
-              "lengthX": 4,
+              "height": 2,
+              "lengthX": 2,
               "offset": 1,
               "start": false
             },
             {
               "type": "gem",
-              "height": 3,
-              "offset": 3,
+              "height": 1.8,
+              "offset": 0.5,
+              "start": false
+            },
+            {
+              "type": "mud",
+              "offset": 1,
               "start": false
             }
           ]
