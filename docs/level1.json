@@ -58,7 +58,7 @@
             },
             {
               "type": "gem",
-              "height": 1.8,
+              "height": 2,
               "offset": 0.5,
               "start": false
             },
@@ -68,7 +68,24 @@
               "start": false
             }
           ]
-        }
+        },
+         {
+           "obstacles": [
+             {
+               "type": "hole",
+               "lengthX": 6,
+               "offset": 0,
+               "start": true
+             },
+             {
+               "type": "log",
+               "height": 1,
+               "lengthX": 2,
+               "offset": 1,
+               "start": true
+             }
+           ]
+         }
       ]
     }
   }
