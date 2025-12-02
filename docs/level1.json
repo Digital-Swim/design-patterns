@@ -6,86 +6,117 @@
           "obstacles": [
             {
               "type": "hole",
-              "lengthX": 4,
+              "lengthX": 19,
               "offset": 0,
               "start": true
             },
             {
               "type": "log",
               "height": 1,
-              "lengthX": 1,
-              "offset": 1.4,
+              "lengthX": 3,
+              "offset": 0.8,
               "start": true
             },
+
             {
-              "type": "gem",
-              "offset": 6,
-              "start": false
-            },
-            {
-              "type": "rock",
-              "lengthX": 2,
-              "lengthY": 2,
-              "offset": 3,
+              "type": "log",
+              "height": 1,
+              "lengthX": 3,
+              "offset": 1,
               "start": false
             },
             {
               "type": "gem",
-              "height": 0,
-              "offset": 4,
-              "start": false
-            },
-            {
-              "type": "rock",
-              "lengthX": 8,
-              "lengthY": 2,
-              "offset": 3,
-              "start": false
+              "relativeToPrev": "topMiddle"
             },
             {
               "type": "log",
               "height": 1,
               "lengthX": 3,
-              "offset": 2,
-              "start": false
-            },
-            {
-              "type": "log",
-              "height": 2,
-              "lengthX": 2,
-              "offset": 1,
-              "start": false
-            },
-            {
-              "type": "gem",
-              "height": 2,
-              "offset": 0.5,
-              "start": false
-            },
-            {
-              "type": "mud",
-              "offset": 1,
+              "offset": 1.2,
               "start": false
             }
           ]
         },
-         {
-           "obstacles": [
-             {
-               "type": "hole",
-               "lengthX": 19,
-               "offset": 0,
-               "start": true
-             },
-             {
-               "type": "log",
-               "height": 1,
-               "lengthX": 2,
-               "offset": 1,
-               "start": true
-             }
-           ]
-         }
+        {
+          "obstacles": [
+            {
+              "type": "log",
+              "height": 1,
+              "lengthX": 3,
+              "offset": 0,
+              "start": true
+            },
+
+            {
+              "type": "log",
+              "height": 2,
+              "lengthX": 3,
+              "offset": 0.7,
+              "start": false
+            },
+            {
+              "type": "gem",
+              "offset": 0.5,
+              "height": 1.8,
+              "start": false
+            }
+          ]
+        },
+        {
+          "obstacles": [
+            {
+              "type": "rock",
+              "lengthX": 2,
+              "lengthY": 2,
+              "offset": 0,
+              "start": true
+            },
+            {
+              "type": "rock",
+              "lengthY": 2,
+              "lengthX": 2,
+              "offset": 2,
+              "start": false
+            },
+            {
+              "type": "gem",
+              "relativeToPrev": "topMiddle"
+            }
+          ]
+        },
+        {
+          "obstacles": [
+            {
+              "type": "rock",
+              "lengthX": 8,
+              "lengthY": 2,
+              "offset": 0,
+              "start": true
+            },
+            {
+              "type": "rock",
+              "lengthY": 2,
+              "lengthX": 4,
+              "relativeToPrev": "topMiddle"
+            },
+            {
+              "type": "rock",
+              "lengthY": 2,
+              "lengthX": 2,
+              "relativeToPrev": "topMiddle"
+            },
+            {
+              "type": "gem",
+              "relativeToPrev": "topMiddle"
+            },
+            {
+              "type": "mud",
+              "lengthX": 4,
+              "offset": 2
+            }
+          ]
+        }
       ]
     }
   }
