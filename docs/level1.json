@@ -73,7 +73,7 @@
            "obstacles": [
              {
                "type": "hole",
-               "lengthX": 6,
+               "lengthX": 19,
                "offset": 0,
                "start": true
              },
